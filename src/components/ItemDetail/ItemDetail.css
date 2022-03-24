@@ -1,0 +1,226 @@
+.card {
+  width: 100%;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardImg {
+  width: 30%;
+  min-width: 300px;
+}
+
+.cardImg img {
+  height: auto;
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cardtext {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  color: #333333;
+  width: 60%;
+  min-width: 300px;
+}
+
+.cardtext hr {
+  margin: 17px 0;
+}
+
+.cardtext li {
+  list-style: none;
+}
+
+.cardtext li span {
+  margin: 8px 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  width: 100px;
+  display: inline-block;
+}
+
+.cardtext li a {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  padding: 3px;
+  margin: 3px;
+}
+
+.contenedorTerminar {
+  display: flex;
+  width: 198px;
+  height: 116.6px;
+  padding: 10px;
+  margin: auto;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttonTerminar {
+  background-color: #4994dc;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #4994dc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.buttonTerminar:hover {
+  background-color: white;
+  color: #4994dc;
+  cursor: pointer;
+}
+
+.precio {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.precio span {
+  font-weight: bold;
+}
+
+.description {
+  font-family: Rallway, Helvetica, sans-serif;
+  width: 60%;
+  min-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.description h3 {
+  font-family: Fjalla One, Helvetica, sans-serif;
+  color: rgb(240, 240, 240);
+  text-align: left;
+  padding: 10px 5px;
+  width: 100%;
+  background-color: rgb(243, 188, 50);
+}
+
+.description p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.dispnone {
+  display: none;
+}
+
+#catLink {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#box {
+  display: flex;
+}
+
+#box span {
+  min-width: 100px;
+}
+
+.catLink {
+  background-color: #898989;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px;
+  margin: 1px 2px;
+  border-radius: 5px;
+}
+
+.cardtext li .catLink a {
+  color: white;
+}
+
+@media (min-width: 790px) {
+  .cardtext {
+    padding-left: 20px;
+  }
+
+  .description {
+    font-family: Rallway, Helvetica, sans-serif;
+    width: 95%;
+    min-width: 300px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .description p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 10px 100px 10px 80px;
+  }
+
+  .description h3 {
+    width: 295px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+  }
+
+  .cardImg img {
+    height: 450px;
+    display: block;
+    width: auto;
+    margin: auto;
+  }
+
+  .cardtext {
+    padding-left: 20px;
+  }
+
+  .cardtext li span {
+    width: 150px;
+  }
+
+  .description {
+    font-family: Rallway, Helvetica, sans-serif;
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .description h3 {
+    width: 340px;
+    margin: 0;
+  }
+}

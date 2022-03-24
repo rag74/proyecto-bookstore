@@ -1,0 +1,60 @@
+.orderContainer {
+  margin: auto;
+  margin-top: 120px;
+  font-family: Fjalla One, arial, sans-serif;
+  width: 90%;
+  text-align: left;
+}
+
+.orderContainer h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.orderContainer p {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.orderContainer hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#homeicon {
+  margin: 40px;
+  font-size: 2.8rem;
+  padding: 20px;
+  color: #f0f0f0;
+  background-color: #333333;
+  border-radius: 50%;
+}
+
+.fa-home:before {
+  color: #f0f0f0;
+}
+
+.backHome p {
+  color: #333333;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.backHome #homeicon {
+  margin-top: 5px;
+}
+
+.pagando {
+  float: none;
+  color: #333333;
+  animation: flash;
+  animation-duration: 2s;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: center;
+  font-weight: 700;
+}

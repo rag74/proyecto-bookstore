@@ -1,0 +1,124 @@
+.contenedorCounter {
+  width: 198px;
+  height: 116.6px;
+  margin: auto;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.cardProducto {
+  width: 100%;
+  padding: 5px 5px;
+  background: rgb(235, 235, 235, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fichaProducto {
+  width: 100%;
+  height: 190px;
+}
+
+.counter {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px 5px;
+  border: 1px solid #a2a2a2;
+  border-radius: 4px;
+}
+
+.cantidad {
+  width: 70%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.buttonD {
+  width: 10%;
+  color: #4994dc;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.buttonI {
+  width: 10%;
+  color: #4994dc;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.buttonAdd {
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #4994dc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #4994dc;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.buttonAdd:hover {
+  background-color: #4994dc;
+  color: white;
+  cursor: pointer;
+}
+
+.agregado {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #4994dc;
+  text-align: center;
+  animation: fadeOutUp 1s;
+  color: #4994dc;
+  font-weight: normal;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.dispnone {
+  display: none;
+}
+
+.contenedorSinStock {
+  display: flex;
+  width: 198px;
+  height: 116.6px;
+  padding: 10px;
+  margin: auto;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttonSinStock {
+  background-color: #4994dc;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #4994dc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}

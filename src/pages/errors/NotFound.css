@@ -1,0 +1,26 @@
+.notFound {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: center;
+  font-weight: 700;
+}
+
+#homeicon {
+  margin: 40px;
+  font-size: 2.8rem;
+  padding: 20px;
+  color: #f0f0f0;
+  background-color: #333333;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.notFound h6 {
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: normal;
+  font-style: italic;
+}

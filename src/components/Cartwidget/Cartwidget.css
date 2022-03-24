@@ -1,0 +1,24 @@
+#carticon {
+  float: right;
+  font-size: 2rem;
+  padding: 18px 15px 18px 8px;
+  cursor: pointer;
+}
+
+#itemsCantidad {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  position: relative;
+  color: white;
+  background-color: crimson;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  padding: 3px;
+  top: -30px;
+  left: -5px;
+  width: 18px;
+}
+
+.normal {
+  display: block;
+}

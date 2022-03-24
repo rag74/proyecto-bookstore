@@ -1,0 +1,258 @@
+.cartcontainter {
+  margin-top: 130px;
+  min-height: 70vh;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  color: #333333;
+}
+
+.cartcontainter h1 {
+  float: none;
+  text-align: left;
+}
+
+#cartRow {
+  height: 70px;
+  width: 100%;
+  min-width: 360px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#cartRow img {
+  height: 60px;
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+.imagen {
+  width: 60px;
+  min-width: 60px;
+}
+
+.titulo {
+  width: 800px;
+  min-width: 160px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.titulo a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.precioCart {
+  font-family: Lato, Helvetica, sans-serif;
+  min-width: 70px;
+}
+
+.cantidadCart {
+  width: 70%;
+  text-align: center;
+  font-family: Lato, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.eliminar {
+  min-width: 30px;
+  text-align: left;
+}
+
+.fa-times:hover {
+  cursor: pointer;
+}
+
+.importeTotal h3 {
+  text-align: center;
+  padding: 30px;
+}
+
+.tableCart {
+  font-family: Lato, sans-serif;
+  padding-top: 10px;
+}
+
+h3 {
+  width: 80%;
+  margin: auto;
+  text-align: right;
+}
+
+.empty {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.backHome p {
+  color: #333333;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#homeicon {
+  margin: 40px;
+  font-size: 2.8rem;
+  padding: 20px;
+  color: #f0f0f0;
+  background-color: #333333;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fa-home:before {
+  color: #f0f0f0;
+}
+
+.cartButtons {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartButtons a {
+  color: #333333;
+}
+
+.circle {
+  height: 85px;
+  width: 85px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 8px 20px 8px;
+  border: 1px solid #666666;
+  font-size: 12px;
+
+  transition: color background 0.3s;
+  transition: color 0.3s;
+}
+
+.circle i {
+  font-size: 40px;
+  padding: 0;
+}
+
+.pay:hover {
+  background-color: #29c524;
+  transition: background 0.3s;
+  color: #f0f0f0;
+  cursor: pointer;
+  border: 0;
+}
+
+.back:hover {
+  background-color: #f7dc48;
+  transition: background 0.3s;
+  color: #f0f0f0;
+  cursor: pointer;
+  border: 0;
+}
+
+.emptyCart:hover {
+  background-color: #f74848;
+  transition: background 0.3s;
+  color: #f0f0f0;
+  cursor: pointer;
+  border: 0;
+}
+
+.modal {
+  font-family: "Fjalla One", sans-serif;
+  color: #f0f0f0;
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  position: fixed;
+  padding: 20px;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: BLACK;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+
+.modal i {
+  font-size: x-large;
+  width: 100%;
+  text-align: right;
+}
+
+form {
+  text-align: left;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+form hr {
+  margin-bottom: 10px;
+}
+
+form span {
+  width: 50%;
+  display: inline-block;
+}
+
+#number {
+  width: 95%;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.closed {
+  display: none;
+}
+
+.fadeIn {
+  animation: fadeIn 0.3s;
+}
+
+@media (min-width: 1024px) {
+  .circle {
+    height: 110px;
+    width: 110px;
+    margin: 10px 15px;
+    font-size: 16px;
+  }
+
+  .circle i {
+    font-size: 50px;
+    padding: 0;
+  }
+}

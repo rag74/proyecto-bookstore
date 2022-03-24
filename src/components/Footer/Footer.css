@@ -1,0 +1,38 @@
+footer {
+  background-color: #666;
+  height: 80px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+footer i {
+  height: 35px;
+  width: 35px;
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+  margin: 2px;
+  margin-top: 25px;
+  transition: background 0.3s;
+  border-radius: 15%;
+}
+
+.fa-facebook-f:hover {
+  background-color: #1771e6;
+  transition: background 0.3s;
+}
+
+.fa-twitter:hover {
+  background-color: #1d9bf0;
+  transition: background 0.3s;
+}
+
+.fa-instagram:hover {
+  background-color: #ae30a0;
+  transition: background 0.3s;
+}
+
+.fa-whatsapp:hover {
+  background-color: #34c84f;
+  transition: background 0.3s;
+}
